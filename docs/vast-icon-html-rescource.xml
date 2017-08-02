@@ -47,9 +47,9 @@
                         </MediaFiles>
                         <Icons>
                             <Icon program="AdChoices" height="20" width="100" xPosition="540" yPosition="2">
-                                <HTMLResource apiFramework="AdChoices">
+                                <HTMLResource>
                                     <![CDATA[
-										<img src="http://c.betrad.com/geo/c_70.png" style="display:block; padding-left: 2px; padding-right: 20px; padding-top: 4px; padding-bottom:4px; background-color: #aaa;" />
+										<img src="http://c.betrad.com/geo/c_70.png" style="display:block; padding-left: 2px; padding-right: 20px; padding-top: 4px; padding-bottom:4px; background-color: #aaa; z-" />
 									]]>
                                 </HTMLResource>
                                 <IconClicks>
