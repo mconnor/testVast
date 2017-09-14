@@ -49,26 +49,7 @@
                             <Icon program="AdChoices" height="20" width="100" xPosition="2" yPosition="2">
                                 <IFrameResource>
                                     <![CDATA[
-									<!DOCTYPE html>
-									<html>
-										<head>
-											<meta charset="utf-8">
-											<title>HELLO WORLD</title>
-											<style>
-												img {
-												display:block;
-												padding-left: 2px;
-												padding-right: 20px;
-												padding-top: 4px;
-												padding-bottom:4px;
-												background-color: #aaa;
-												}
-											</style>
-										</head>
-										<body>
-											<img src="http://c.betrad.com/geo/c_70.png" alt="adchoices icon"/>
-										</body>
-									</html>
+									http://rocketnumber9.org/vast-test/iframe.html
 									]]>
                                 </IFrameResource>
                                 <IconClicks>
