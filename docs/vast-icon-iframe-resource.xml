@@ -49,7 +49,9 @@
                             <Icon program="AdChoices" height="20" width="100" xPosition="2" yPosition="2">
                                 <IFrameResource>
                                     <![CDATA[
-									http://rocketnumber9.org/vast-test/iframe.html
+									<iframe src="http://rocketnumber9.org/vast-test/iframe.html">
+  <p>Your browser does not support iframes.</p>
+</iframe>
 									]]>
                                 </IFrameResource>
                                 <IconClicks>
