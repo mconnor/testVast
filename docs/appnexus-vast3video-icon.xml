@@ -1,0 +1,70 @@
+<VAST 
+    xmlns:MM="http://api.mediamind.com/V1/DataContracts" version="3.0">
+    <Ad id="IntegralAds">
+        <InLine>
+            <AdSystem>
+                <![CDATA[ IntegralAds ]]>
+            </AdSystem>
+            <AdTitle>
+                <![CDATA[ xxxx ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ Andrea VAST Sept 17 ]]>
+            </Description>
+            <Impression id="Integral Ad Science">
+                <![CDATA[ https://static.adsafeprotected.com/skeleton.gif ]]>
+            </Impression>
+            <Creatives>
+                <Creative id="xxxxxx">
+                    <Linear>
+                        <Duration>00:00:21</Duration>
+                        <VideoClicks>
+                            <ClickThrough/>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="2075838619" height="1080" width="1920" bitrate="2540" type="video/mp4" delivery="progressive" maintainAspectRatio="true" scalable="true">
+                                <![CDATA[
+https://secure-ds.serving-sys.com/resources/PROD/asset/104597/VIDEO/20170927/Breathing_Like_Final_x264_31671419143192629.MP4
+]]>
+                            </MediaFile>
+                            <MediaFile id="2075838620" height="1080" width="1920" bitrate="2507" type="video/webm" delivery="progressive" maintainAspectRatio="true" scalable="true">
+                                <![CDATA[
+https://secure-ds.serving-sys.com/resources/PROD/asset/104597/VIDEO/20170927/Breathing_Like_Final_x264_31671419411628090.WEBM
+]]>
+                            </MediaFile>
+                            <MediaFile id="2075838621" height="1080" width="1920" bitrate="599" type="video/x-flv" delivery="progressive" maintainAspectRatio="true" scalable="true">
+                                <![CDATA[
+https://secure-ds.serving-sys.com/resources/PROD/asset/104597/VIDEO/20170927/Breathing_Like_Final_x264_31671419411628088.FLV
+]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <Icons>
+                            <Icon program="AdChoices" height="20" width="100" xPosition="540" yPosition="2">
+                                <HTMLResource>
+                                    <![CDATA[
+<a target="_blank"><img src="https://c.betrad.com/geo/c_70.png" style="display:block; padding-left: 2px; padding-right: 20px; padding-top: 4px; padding-bottom:4px; background-color: #aaa; z-index:100002" /></a>
+]]>
+                                </HTMLResource>
+                                <IconClicks>
+                                    <IconClickThrough>
+                                        <![CDATA[
+              http://info.evidon.com/more_info/18126
+          ]]>
+                                    </IconClickThrough>
+                                    <IconClickTracking>
+                                        <![CDATA[ http://l.betrad.com/ct/0_0_0_18126/us/0/0/0/0/0/1/60/60/242/2098/0/pixel.gif?v=3_1&ttid=2&d=&r=0.1&mb=6
+          ]]>
+                                    </IconClickTracking>
+                                </IconClicks>
+                                <IconViewTracking>
+                                    <![CDATA[ http://l.betrad.com/ct/0_0_0_18126/us/0/1/0/0/0/0/60/60/242/2098/0/pixel.gif?v=3_1&ttid=2&d=&r=0.1&mb=6
+      ]]>
+                                </IconViewTracking>
+                            </Icon>
+                        </Icons>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

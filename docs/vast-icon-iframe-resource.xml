@@ -48,9 +48,7 @@
                         <Icons>
                             <Icon program="AdChoices" height="20" width="100" xPosition="2" yPosition="2">
                                 <IFrameResource>
-                                    <![CDATA[
-									https://mconnor.github.io/testVast/link-to-durly-production.html
-									]]>
+                                    <![CDATA[https://mconnor.github.io/testVast/link-to-durly-production.html]]>
                                 </IFrameResource>
                                 <IconClicks>
                                     <IconClickThrough>
