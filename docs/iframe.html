@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Evidon</title>
+	<style>
+		#evidon-icon {
+			border-radius: 0 0 0 8px;
+			background: rgb(255, 255, 255);
+			background: rgba(255, 255, 255, 0.6);
+			width: 77px;
+			height: 16px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="evidon-icon"><img src="https://c.betrad.com/geo/c_70.png" /></div>
+	<script type="text/javascript">
+		var icon = document.getElementById("evidon-icon");
+		icon.addeListener("mouseover", function (e) {
+			e.target.style = "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 1);"
+			setTimeout(function () {
+				e.target.style = "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.6);";
+			}, 500);
+		}, false);
+	</script>
+</body>
+
+</html>
