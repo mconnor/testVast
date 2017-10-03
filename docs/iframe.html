@@ -15,22 +15,41 @@
 </head>
 <body>
 	<div id="evidon-icon">
-		<a href="http://google.com" target="_blank">
-		<img src="https://c.betrad.com/geo/c_70.png" /></a>
+		<img src="https://c.betrad.com/geo/c_70.png" />
 	</div>
 	<script type="text/javascript">
 		var icon = document.getElementById("evidon-icon");
+		var clickThru = getQueryVariable(clickthru);
+		var position = getQueryVariable(position);
+
+		icon.style.float = position;
+
 		if (icon.addEventListener) {
 			icon.addEventListener('mouseover', onRollOver, false);
+			icon.addEventListener('click', onClick, false);
 		} else if (icon.attachEvent) {
 			icon.attachEvent('mouseover', onRollOver);
+			icon.attachEvent('onclick', onClick);
 		}
 		function onRollOver(e) {
 			icon.style = "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 1);"
 			setTimeout(function () {
 				icon.style = "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.6);";
 			}, 500);
-		};
+		}
+		function onClick(e) {
+			window.open(clickThru);
+		}
+
+		function getQueryVariable(variable) {
+			var query = window.location.search.substring(1);
+			var vars = query.split("&");
+			for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split("=");
+				if (pair[0] == variable) { return pair[1]; }
+			}
+			return (false);
+		}
 	</script>
 </body>
 </html>
