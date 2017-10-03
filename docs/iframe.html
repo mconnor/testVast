@@ -10,10 +10,9 @@
 		
 		}
 		#evidon-icon {
-			border-radius: 0 0 0 8px;
 			width: 77px;
 			height: 16px;
-			float: right;
+
 		}
 	</style>
 </head>
@@ -25,9 +24,21 @@
 		(function(){
 			var icon = document.getElementById("evidon-icon");
 			var clickThru = decodeURIComponent(getQueryVariable('clickthru'));
+			
+			//what corner is the icon in;
+			var corner = getQueryVariable('corner');
 
 			var dim = "rgba(255, 255, 255, .6)";
 			var bright = "rgba(255, 255, 255, 1)";
+			var curveRadius = "8px";
+
+			if (corner === 'left') {
+				icon.style.borderBottomRightRadius = curveRadius;
+				
+			} else {
+				icon.style.borderBottomLeftRadius = curveRadius;
+			}
+			
 	
 			icon.style.background = dim;
 			if (icon.addEventListener) {
