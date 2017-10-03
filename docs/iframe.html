@@ -21,7 +21,7 @@
 		(function(){
 			var icon = document.getElementById("evidon-icon");
 			var clickThru = decodeURIComponent(getQueryVariable('clickthru'));
-			icon.setAttribute("style","border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 1);");
+			icon.setAttribute("style","border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, .6);");
 
 			if (icon.addEventListener) {
 				icon.addEventListener('mouseover', onRollOver, false);
@@ -33,7 +33,7 @@
 			function onRollOver(e) {
 				icon.style.background = "rgba(255, 255, 255, 1);"
 				setTimeout(function () {
-				icon.style.background = "rgba(255, 255, 255, 0.6);";
+					icon.style.background = "rgba(255, 255, 255, 0.6);";
 				}, 500);
 			}
 			function onClick(e) {
