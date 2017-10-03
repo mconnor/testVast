@@ -23,7 +23,9 @@
 			var clickThru = getQueryVariable('clickthru');
 			var position = getQueryVariable('position');
 
-			icon.style.float = position;
+
+		
+			icon.setAttribute("style","float:" + position + "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 1);");
 
 			if (icon.addEventListener) {
 				icon.addEventListener('mouseover', onRollOver, false);
@@ -33,9 +35,9 @@
 				icon.attachEvent('onclick', onClick);
 			}
 			function onRollOver(e) {
-				icon.style = "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 1);"
+				icon.style.background = "rgba(255, 255, 255, 1);"
 				setTimeout(function () {
-					icon.style = "border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 0.6);";
+				icon.style.background = "rgba(255, 255, 255, 0.6);";
 				}, 500);
 			}
 			function onClick(e) {
