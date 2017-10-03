@@ -20,11 +20,7 @@
 	<script type="text/javascript">
 		(function(){
 			var icon = document.getElementById("evidon-icon");
-			var clickThru = decodeURI(getQueryVariable('clickthru'));
-			//var position = getQueryVariable('position');
-
-
-		
+			var clickThru = decodeURIComponent(getQueryVariable('clickthru'));
 			icon.setAttribute("style","float:" +  position +"; border-radius: 0 0 0 8px; background: rgb(255, 255, 255); background: rgba(255, 255, 255, 1);");
 
 			if (icon.addEventListener) {
