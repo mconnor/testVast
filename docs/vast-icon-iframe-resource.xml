@@ -46,7 +46,7 @@
                             </MediaFile>
                         </MediaFiles>
                         <Icons>
-                            <Icon program="AdChoices" height="30" width="87" xPosition="0" yPosition="2">
+                            <Icon program="AdChoices" height="30" width="87" xPosition="552" yPosition="0">
                                 <IFrameResource>
                                     <![CDATA[https://mconnor.github.io/testVast/iframe.html?position=right&clickthru=http%3A%2F%2Finfo.evidon.com%2Fmore_info%2F18126]]>
                                 </IFrameResource>
