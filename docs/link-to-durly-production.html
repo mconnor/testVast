@@ -1,10 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>durly production</title>
-		<script type="text/javascript" data-name="durly" src="https://c.evidon.com/durly.js?coid=242;nid=64545;ad_w=300;ad_h=250;"></script>
-	</head>
-	<body>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>durly production</title>
+</head>
+
+<body>
+	<iframe src="./empty.html" title="iframe example 1" width="800" height="900">
+	</iframe>
+	
+
+	<script type="text/javascript">
+		var dropindurly = function () {
+			var _contentWindow = document.getElementsByTagName("iframe")[0].contentWindow;
+
+			var durlyScript = document.createElement('SCRIPT');
+			durlyScript.setAttribute('type', 'text/javascript');
+			durlyScript.setAttribute('data-name', 'durly');
+			durlyScript.setAttribute('src', "https://c.evidon.com/durly.js?;coid=242;nid=104795;ad_wxh=300x250;position=bottom-right;delay_start=5");
+			//place it in ad iframe
+			_contentWindow
+				.document
+				.body
+				.appendChild(durlyScript);
+		};
+		try {
+			window.onload = dropindurly;
+			console.log('ok');
+		} catch (e) {
+			console.warn(e.message);
+		}
+	</script>
+</body>
+
 </html>
