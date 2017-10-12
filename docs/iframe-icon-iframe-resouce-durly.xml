@@ -46,7 +46,7 @@
                             </MediaFile>
                         </MediaFiles>
                         <Icons>
-                            <Icon program="AdChoices" height="400" width="600" xPosition="0" yPosition="0">
+                            <Icon program="AdChoices" height="30" width="77" xPosition="0" yPosition="0">
                                 <IFrameResource>
                                     <![CDATA[https://mconnor.github.io/testVast/iframe-durly.html]]>
                                 </IFrameResource>
