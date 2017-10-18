@@ -46,27 +46,10 @@
                             </MediaFile>
                         </MediaFiles>
                         <Icons>
-                            <Icon program="AdChoices" height="30" width="77" xPosition="0" yPosition="0">
+                            <Icon program="AdChoices" height="20" width="122" xPosition="518" yPosition="0">
                                 <IFrameResource>
-                                    <![CDATA[https://mconnor.github.io/testVast/iframe.html?corner=left&clickthru=http%3A%2F%2Finfo.evidon.com%2Fmore_info%2F18126]]>
+                                    <![CDATA[//mconnor.github.io/testVast/iframe-durly.html?coid=242;nid=64545;ad_w=640;ad_h=360;position=top-right]]>
                                 </IFrameResource>
-                                <IconClicks>
-                                    <IconClickThrough>
-                                        <![CDATA[
-                                            http://info.evidon.com/more_info/18126
-                                        ]]>
-                                    </IconClickThrough>
-                                    <IconClickTracking>
-                                        <![CDATA[
-											http://l.betrad.com/ct/0_0_0_18126/us/0/0/0/0/0/1/60/60/242/2098/0/pixel.gif?v=3_1&ttid=2&d=&r=0.1&mb=6
-                                        ]]>
-                                    </IconClickTracking>
-                                </IconClicks>
-                                <IconViewTracking>
-                                    <![CDATA[
-                                        http://l.betrad.com/ct/0_0_0_18126/us/0/1/0/0/0/0/60/60/242/2098/0/pixel.gif?v=3_1&ttid=2&d=&r=0.1&mb=6
-                                    ]]>
-                                </IconViewTracking>
                             </Icon>
                         </Icons>
                     </Linear>
