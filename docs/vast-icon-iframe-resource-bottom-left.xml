@@ -48,7 +48,7 @@
                         <Icons>
                             <Icon program="AdChoices" height="20" width="122" xPosition="0" yPosition="bottom">
                                 <IFrameResource>
-                                    <![CDATA[//mconnor.github.io/testVast/iframe-durly.html?testlocal=false;coid=242;nid=64545;ad_w=640;ad_h=360;position=bottom-left]]>
+                                    <![CDATA[//mconnor.github.io/testVast/iframe-durly.html?testlocal=true;coid=242;nid=64545;ad_w=640;ad_h=360;position=bottom-left]]>
                                 </IFrameResource>
                             </Icon>
                         </Icons>
