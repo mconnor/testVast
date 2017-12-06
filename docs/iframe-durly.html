@@ -1,0 +1,45 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript">
+    (function () {
+      var vars = window.location.search.substring(1).split(";");
+      //what corner is the icon in;
+      var coid = getQueryVariable('coid');
+      var nid = getQueryVariable('nid');
+      var ad_w = getQueryVariable('ad_w');
+      var ad_h = getQueryVariable('ad_h');
+      var position = getQueryVariable('position');
+      var testLocal = "false";
+      testLocal = getQueryVariable('testlocal');
+
+      var durlyScript = document.createElement("SCRIPT");
+      durlyScript.setAttribute("data-name", "durly");
+      durlyScript.setAttribute("src", "//mconnor.github.io/notice-js-mike/surly/durly.js?;testLocal="  + testLocal + ";coid=" + coid + ";nid=" + nid + ";ad_w=" + ad_w + ";ad_h=" + ad_h + ";position=" + position);
+
+      document.body.appendChild(durlyScript);
+
+      function getQueryVariable(variable) {
+        for (var i = 0; i < vars.length; i++) {
+          var pair = vars[i].split("=");
+          if (pair[0] === variable) { return pair[1]; }
+        }
+        return (false);
+      }
+    })();
+  </script>
+</body>
+
+</html>
