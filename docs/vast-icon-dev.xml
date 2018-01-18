@@ -49,7 +49,7 @@
                             <Icon program="AdChoices" height="20" width="{iconWidth}" xPosition="right" yPosition="top">
                                 <IFrameResource>
                                     <![CDATA[
-                                        https://c.evidon.com/vast-iframe.html
+                                        https://dev.betrad.com/vast-iframe.html?;coid=242;nid=64545;ad_w=640;ad_h=360;position=top-right
                                     ]]>
                                 </IFrameResource>
                             </Icon>
