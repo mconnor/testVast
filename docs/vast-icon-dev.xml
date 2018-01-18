@@ -46,7 +46,7 @@
                             </MediaFile>
                         </MediaFiles>
                         <Icons>
-                            <Icon program="AdChoices" height="20" width="{iconWidth}" xPosition="right" yPosition="top">
+                            <Icon program="AdChoices" height="20" width="120" xPosition="right" yPosition="top">
                                 <IFrameResource>
                                     <![CDATA[
                                         https://dev.betrad.com/vast-iframe.html?;coid=242;nid=64545;ad_w=640;ad_h=360;position=top-right
