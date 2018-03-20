@@ -45,13 +45,14 @@
                                 <![CDATA[http://creative.js.adotube.com/creatives/dev_test/pre1_video1_html5.webm]]>
                             </MediaFile>
                         </MediaFiles>
-                        <Icons>
-                            <Icon program="AdChoices" height="20" width="122" xPosition="right" yPosition="top">
-                                <IFrameResource>
-                                    <![CDATA[ https://c.evidon.com/vast-iframe.html?;coid=242;nid=118889;position=top-right;]]>
-                                </IFrameResource>
-                            </Icon>
-                        </Icons>
+                        <Icons><Icon program="AdChoices" height="20" width="122" xPosition="right" yPosition="bottom">
+      <IFrameResource>
+          <![CDATA[
+              https://c.evidon.com/vast-iframe.html?;coid=242;nid=118889;position=bottom-right;
+          ]]>
+      </IFrameResource>
+  </Icon>
+</Icons>
                     </Linear>
                 </Creative>
             </Creatives>
