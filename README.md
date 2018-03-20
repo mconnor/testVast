@@ -15,8 +15,8 @@ This an example of a typical Icons tag.
             <![CDATA[//c.evidon.com/vast-iframe.html?;coid=242;nid=115053;position=top-right]]>
         </IFrameResource>
     </Icon>
-</Icons>```
-
+</Icons>
+```
 
 The fixed XML attributes are: program="AdChoices" height="20" width="122". These values *must not change*. The height and width correspond to an iframe that contains the icons.  It is just large enough for the icon.
 
@@ -31,9 +31,11 @@ In \<IFrameResource\> there is a CDATA wrapped url with query string values atta
 A protocol of _https_ or no protocol at all are acceptable for the link to vast-iframe.html. _http_ is not accepatable
 
 ### What does iframe_durly.html actually do?
+
 It injects the durly script takes with the  query string values tacked on.
 
+[Click here to see a demo][demo]
 
-
+[demo]:https://mconnor.github.io/testVast/c.evidon.tag.test.html
 
 [VAST3]: https://www.iab.com/wp-content/uploads/2015/06/VASTv3_0.pdf
