@@ -1,0 +1,61 @@
+<VAST version="3.0">
+    <Ad id="Adotube">
+        <InLine>
+            <AdSystem version="3.0">Adotube</AdSystem>
+            <AdTitle>
+                <![CDATA[ Adotube ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ ]]>
+            </Description>
+            <Impression>
+                <![CDATA[ http://stats.adotube.com/log_stats.php?urid=71313da42fb1779480afcd156a8324cd&action=Impression&b=0&billing_type=0&avpid_stats=oRYYzvQ&pid=&gid=&publisher_id=1797&capid=&wid=25e2ea36-b3b7-4c6d-b8b4-543fc9891e48&geo=US_UT_SaltLakeCity_801_770_84101&ad_id=test&cat_id=0&cam_id=7913&cb=56057397ea8722.17210560&value=&test=NA_NA_NA_NA_NA_NA_NA_NA&bk=&adex_id=&HTTP_REFERER=http%3A%2F%2Fwww.longtailvideo.com&video_identifier=longtailvideo.com%2Ctest&urid=71313da42fb1779480afcd156a8324cd ]]>
+            </Impression>
+            <Creatives>
+                <Creative sequence="1" id="oRYYzvQ">
+                    <Linear>
+                        <Duration>00:00:13</Duration>
+                        <TrackingEvents>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[ http://stats.adotube.com/log_stats.php?urid=71313da42fb1779480afcd156a8324cd&action=Views25&b=0&billing_type=0&avpid_stats=oRYYzvQ&pid=&gid=&publisher_id=1797&capid=&wid=25e2ea36-b3b7-4c6d-b8b4-543fc9891e48&geo=US_UT_SaltLakeCity_801_770_84101&ad_id=test&cat_id=0&cam_id=7913&cb=56057397ea8722.17210560&value=&test=NA_NA_NA_NA_NA_NA_NA_NA&bk=&adex_id=&HTTP_REFERER=http%3A%2F%2Fwww.longtailvideo.com&video_identifier=longtailvideo.com%2Ctest&urid=71313da42fb1779480afcd156a8324cd ]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[ http://stats.adotube.com/log_stats.php?urid=71313da42fb1779480afcd156a8324cd&action=Views50&b=0&billing_type=0&avpid_stats=oRYYzvQ&pid=&gid=&publisher_id=1797&capid=&wid=25e2ea36-b3b7-4c6d-b8b4-543fc9891e48&geo=US_UT_SaltLakeCity_801_770_84101&ad_id=test&cat_id=0&cam_id=7913&cb=56057397ea8722.17210560&value=&test=NA_NA_NA_NA_NA_NA_NA_NA&bk=&adex_id=&HTTP_REFERER=http%3A%2F%2Fwww.longtailvideo.com&video_identifier=longtailvideo.com%2Ctest&urid=71313da42fb1779480afcd156a8324cd ]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[http://stats.adotube.com/log_stats.php?urid=71313da42fb1779480afcd156a8324cd&action=Views75&b=0&billing_type=0&avpid_stats=oRYYzvQ&pid=&gid=&publisher_id=1797&capid=&wid=25e2ea36-b3b7-4c6d-b8b4-543fc9891e48&geo=US_UT_SaltLakeCity_801_770_84101&ad_id=test&cat_id=0&cam_id=7913&cb=56057397ea8722.17210560&value=&test=NA_NA_NA_NA_NA_NA_NA_NA&bk=&adex_id=&HTTP_REFERER=http%3A%2F%2Fwww.longtailvideo.com&video_identifier=longtailvideo.com%2Ctest&urid=71313da42fb1779480afcd156a8324cd]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[http://stats.adotube.com/log_stats.php?urid=71313da42fb1779480afcd156a8324cd&action=Views100&b=0&billing_type=0&avpid_stats=oRYYzvQ&pid=&gid=&publisher_id=1797&capid=&wid=25e2ea36-b3b7-4c6d-b8b4-543fc9891e48&geo=US_UT_SaltLakeCity_801_770_84101&ad_id=test&cat_id=0&cam_id=7913&cb=56057397ea8722.17210560&value=&test=NA_NA_NA_NA_NA_NA_NA_NA&bk=&adex_id=&HTTP_REFERER=http%3A%2F%2Fwww.longtailvideo.com&video_identifier=longtailvideo.com%2Ctest&urid=71313da42fb1779480afcd156a8324cd]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[http://stats.adotube.com/log_stats.php?urid=71313da42fb1779480afcd156a8324cd&url=http%3A%2F%2Fadotube.com&action=Click&b=0&conv=1&billing_type=2&avpid_stats=oRYYzvQ&pid=&gid=&publisher_id=1797&capid=&wid=25e2ea36-b3b7-4c6d-b8b4-543fc9891e48&geo=US_UT_SaltLakeCity_801_770_84101&ad_id=test&cat_id=0&cam_id=7913&cb=56057397ea8722.17210560&value=&test=NA_NA_NA_NA_NA_NA_NA_NA&bk=&adex_id=&HTTP_REFERER=http%3A%2F%2Fwww.longtailvideo.com&video_identifier=longtailvideo.com%2Ctest&urid=71313da42fb1779480afcd156a8324cd]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="600" width="640" height="360" type="video/mp4">
+                                <![CDATA[http://creative.js.adotube.com/creatives/dev_test/pre1_video1_html5.mp4]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="600" width="640" height="360" type="video/x-flv">
+                                <![CDATA[http://creative.js.adotube.com/creatives/dev_test/pre1_video1_html5.flv]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="600" width="640" height="360" type="video/webm">
+                                <![CDATA[http://creative.js.adotube.com/creatives/dev_test/pre1_video1_html5.webm]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <Icons><Icon program="AdChoices" height="20" width="122" xPosition="right" yPosition="top">
+      <IFrameResource>
+          <![CDATA[
+              https://c.evidon.com/vast-iframe.html?;coid=242;nid=118889;position=top-right;
+          ]]>
+      </IFrameResource>
+  </Icon>
+</Icons>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
