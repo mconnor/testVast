@@ -20,9 +20,12 @@ This an example of a typical Icons tag.
 
 The fixed XML attributes are: program="AdChoices" height="20" width="122". These values *must not change*. The height and width correspond to an iframe that contains the icons.  It is just large enough for the icon.
 
-*Variable XML attributes* - xPosition (possible values: left, right), yPositon (possible values: top, bottom)
+### Variable XML attributes
 
-*Query String*
+xPosition (possible values: left, right), yPositon (possible values: top, bottom)
+
+### Query String
+
 In \<IFrameResource\> there is a CDATA wrapped url with query string values attached. Values are:
 ⋅⋅*coid
 ⋅⋅*nid
