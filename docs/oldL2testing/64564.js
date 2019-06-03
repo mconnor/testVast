@@ -20,7 +20,7 @@ BAP.copyJSON({
       "generic_text": null,
       "adv_name": "Ghostery",
       "adv_msg": "Custom",
-      "adv_logo": "http://dev.betrad.com/a/ui/logos/242/5d3e82ee8e0a4e349dc010e0218f1fcf.png",
+      "adv_logo": "https://mconnor.github.io/testVast/adRollGroup.png",
       "adv_link": "http://www.evidon.com",
       "mobile_message": null,
       "display_mobile_overlay": false,
