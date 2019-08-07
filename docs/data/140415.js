@@ -1,6 +1,6 @@
 BAP.copyJSON({
     "data": {
-      "icon_position": "bottom-xx",
+      "icon_position": "bottom-left",
       "default_icon": "_us",
       "mobile_in_app_url": "",
       "default_footer": "Privacy Controls by Evidon, Inc.",
